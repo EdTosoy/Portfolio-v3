@@ -1,0 +1,20 @@
+//BASICS
+@import "./1-basics/typography";
+@import "./1-basics/color-selections";
+@import "./1-basics/basic-setup";
+
+//COMPONENTS
+@import "./2-components/header";
+@import "./2-components/menu";
+@import "./2-components/buttons";
+@import "./2-components/heading";
+
+//LAYOUTS
+@import "./3-layouts/break-points";
+@import "./3-layouts/main-layout";
+
+//MAIN-SECTIONS
+@import "./4-main-sections/hero";
+@import "./4-main-sections/about";
+@import "./4-main-sections/works";
+@import "./4-main-sections/contact";

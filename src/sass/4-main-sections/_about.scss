@@ -1,0 +1,58 @@
+.about-me {
+  padding: 120px 0;
+  .about-me-content {
+    grid-column: 3/-3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .about-left {
+    width: 60%;
+    .about-me-text {
+      p {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      width: 50%;
+    }
+    ion-icon {
+      font-size: 1.2em;
+      margin-right: 8px;
+    }
+    li {
+      padding: 3px;
+      display: flex;
+      align-items: center;
+      font-size: 1.2em;
+    }
+  }
+  .about-right {
+    width: 40%;
+    .picture-holder {
+      margin-top: 4.1em;
+      margin-left: auto;
+      margin-right: 0.5em;
+      border: 4px solid $accent;
+      height: 210px;
+      width: 210px;
+      position: relative;
+    }
+    .picture {
+      background-image: url(/img/ed.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+    }
+  }
+}
