@@ -1,0 +1,43 @@
+.menu {
+  display: none;
+  ion-icon[name="menu-outline"] {
+    font-size: 3em !important;
+    cursor: pointer;
+  }
+  .menu-panel {
+    background-color: rgba($color: black, $alpha: 0.7);
+    position: fixed;
+    top: 0;
+    right: 100%;
+    width: 70vw;
+    height: 100vh;
+    padding: 5rem 1rem;
+    color: white;
+    li {
+      padding: 1rem 2rem;
+    }
+    li a {
+      font-size: 17px;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+
+    .resume a {
+      color: coral;
+    }
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+  }
+  .open-menu {
+    transform: translate(70vw);
+    -webkit-transform: translate(70vw);
+    -moz-transform: translate(70vw);
+    -ms-transform: translate(70vw);
+    -o-transform: translate(70vw);
+  }
+}

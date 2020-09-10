@@ -1,0 +1,40 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: white;
+  box-shadow: 0 3px 3px -4px black;
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    .logo {
+      width: 2.6em;
+      min-width: 35px;
+    }
+    nav {
+      display: flex;
+      align-items: baseline;
+      li {
+        font-size: 1.25em;
+        margin-left: 1.4em;
+        &:hover {
+          color: $accent;
+        }
+      }
+      .resume {
+        background-color: $accent;
+        margin-left: 2rem;
+        padding: 8px 1.6em;
+        font-size: 1.3em;
+        color: white;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.heading {
+  margin-bottom: 1rem;
+  width: 100%;
+  overflow: hidden;
+  font-size: 1rem;
+  span {
+    color: $accent;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+    &::after {
+      content: " ";
+      width: 350px;
+      height: 2px;
+      background-color: #686868;
+      position: absolute;
+      top: 50%;
+      left: 120%;
+    }
+  }
+}

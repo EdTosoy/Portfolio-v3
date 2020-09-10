@@ -1,0 +1,32 @@
+.btn-primary {
+  padding: 10px;
+  color: white;
+  background-color: $accent;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  &:hover {
+    background-color: #eb2700;
+  }
+  &:active {
+    background-color: black !important;
+  }
+}
+.btn-secondary {
+  padding: 10px;
+  background-color: inherit;
+  border: 1px solid gray;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  &:hover {
+    background-color: #fff;
+  }
+  &:active {
+    background-color: black !important;
+  }
+}

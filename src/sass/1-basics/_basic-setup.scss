@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  list-style: none;
+  text-decoration: none;
+  // border: 1px dashed green;
+  outline: none;
+  font-family: $primary-font;
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+}
+p {
+  line-height: 1.3;
+}
+a {
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
