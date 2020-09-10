@@ -1,0 +1,29 @@
+header,
+.hero,
+.about-me,
+.my-works,
+.contact {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns:
+    minmax(1rem, 1fr)
+    minmax(1rem, 1100px)
+    minmax(1rem, 1fr);
+}
+
+.header-content,
+.hero-content,
+.about-me-content,
+.my-works-content,
+.contact-content {
+  grid-column: 2/-2;
+}
+.about-me,
+.my-works,
+.contact {
+  display: grid;
+  grid-template-columns:
+    minmax(1rem, 1fr)
+    repeat(10, minmax(1rem, 110px))
+    minmax(1rem, 1fr);
+}
